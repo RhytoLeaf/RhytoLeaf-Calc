@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html>
 
+<!-- 
+
+    follow @rhytoleaf for more free templates
+
+ -->
+
 <head>
     <title>RhytoLeaf Calc</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="your_favicon.png">
+    <link rel="icon" type="image/png" href="logo-icon.png">
 
 </head>
 
 <body>
-    <div class="calculator">
-        <input type="text" id="result" disabled>
-        <div class="buttons">
-            <button class="number" onclick="appendValue('7')">7</button>
-            <button class="number" onclick="appendValue('8')">8</button>
-            <button class="number" onclick="appendValue('9')">9</button>
-            <button class="operator" onclick="appendValue('+')">+</button>
-            <button class="number" onclick="appendValue('4')">4</button>
-            <button class="number" onclick="appendValue('5')">5</button>
-            <button class="number" onclick="appendValue('6')">6</button>
-            <button class="operator" onclick="appendValue('-')">-</button>
-            <button class="number" onclick="appendValue('1')">1</button>
-            <button class="number" onclick="appendValue('2')">2</button>
-            <button class="number" onclick="appendValue('3')">3</button>
-            <button class="operator" onclick="appendValue('*')">*</button>
-            <button class="number" onclick="appendValue('0')">0</button>
-            <button class="operator" onclick="calculate()">=</button>
-            <button class="operator" onclick="appendValue('/')">/</button>
-            <button onclick="clearAll()">C</button>
+    <div class="square">
+        <div class="calculator">
+            <input type="text" id="result" disabled>
+            <div class="buttons">
+                <button class="number" onclick="appendValue('7')">7</button>
+                <button class="number" onclick="appendValue('8')">8</button>
+                <button class="number" onclick="appendValue('9')">9</button>
+                <button class="operator" onclick="appendValue('+')">+</button>
+                <button class="number" onclick="appendValue('4')">4</button>
+                <button class="number" onclick="appendValue('5')">5</button>
+                <button class="number" onclick="appendValue('6')">6</button>
+                <button class="operator" onclick="appendValue('-')">-</button>
+                <button class="number" onclick="appendValue('1')">1</button>
+                <button class="number" onclick="appendValue('2')">2</button>
+                <button class="number" onclick="appendValue('3')">3</button>
+                <button class="operator" onclick="appendValue('*')">*</button>
+                <button class="number" onclick="appendValue('0')">0</button>
+                <button class="operator" onclick="calculate()">=</button>
+                <button class="operator" onclick="appendValue('/')">/</button>
+                <button onclick="clearAll()">C</button>
+            </div>
         </div>
-    </div>
 
-    <footer class="text">
-        RhytoLeaf Inc. &copy; 2023. All rights reserved.
-    </footer>
+
+        <br><br>
+
+        <footer class="footer">
+            RhytoLeaf Inc. &copy; 2023. All rights reserved.
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
